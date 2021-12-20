@@ -34,7 +34,7 @@ body {
 }
 
 .main-menu ul .main-item {
-    font-size: 2.6rem;
+    font-size: 2rem;
     list-style: none;
 }
 
@@ -54,6 +54,8 @@ body {
 
 .main-header {
     text-align: center;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .main-header .main-header-content {
@@ -65,7 +67,7 @@ body {
 }
 
 .main-header .main-header-content h1 {
-    font-size: 5.5rem;
+    font-size: 4.5rem;
     color: #fff;
     font-weight: 700;
 }
@@ -80,6 +82,34 @@ body {
     border-bottom: #b15d37 5px solid;
     cursor: pointer;
     border-radius: 10px;
+}
+
+@media screen and (max-width: 1200px) {
+    .main-header .main-header-content h1 {
+        font-size: 4rem;
+    }
+
+    .main-header .main-header-content button {
+        padding: 20px 100px;
+    }
+
+    .main-menu ul .main-item a {
+        padding: 10px 20px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .main-header .main-header-content h1 {
+        font-size: 3.5rem;
+    }
+
+    .main-header .main-header-content button {
+        padding: 20px 100px;
+    }
+
+    .main-menu ul .main-item a {
+        padding: 10px 20px;
+    }
 }
 
 
