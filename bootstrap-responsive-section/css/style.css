@@ -1,11 +1,9 @@
 i.fab {
-    color: rgb(196, 127, 0);
+    color: rgb(233, 151, 0);
 }
 
 .item-wrapper { 
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width: 100px;
     height: 100px;
+    background-color: rgb(241, 241, 241);
 }
