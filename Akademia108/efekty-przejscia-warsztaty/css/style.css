@@ -1,0 +1,31 @@
+div {
+    width: 150px;
+    height: 150px;
+    margin: 10px 0;
+    transition: linear .5s;
+}
+
+.div1 {
+    background-color: rgb(38, 209, 124);
+}
+
+.div2 {
+    background-color: rgb(55, 38, 209);
+}
+
+.div3 {
+    background-color: rgb(175, 38, 209);
+}
+
+.div1:hover {
+    width: 300px;
+}
+
+.div2:hover {
+    height: 300px;
+}
+
+.div3:hover {
+    width: 300px;
+    height: 300px;
+}

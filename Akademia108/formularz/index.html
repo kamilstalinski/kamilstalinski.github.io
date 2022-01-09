@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="https://formspree.io/f/myyogzoe" method="post">
+        <label for="fname">Imię: </label>
+        <input type="text" name="fname" id="fname" required><br>
+        <label for="lname">Nazwisko: </label>
+        <input type="text" name="lname" id="lname" required><br>
+        <label for="email">Adres e-mail:</label>
+        <input type="email" name="email" id="email" required><br>
+        <label for="phone">Numer tel:</label>
+        <input type="tel" name="phone" id="phone" required><br>
+        <label for="city">Wybierz miasto:</label>
+        <select name="city" id="city">
+            <option value="Warszawa">Warszawa</option>
+            <option value="Szczecin">Szczecin</option>
+            <option value="Poznań">Poznań</option>
+        </select><br>
+        <label>Płeć:</label>
+        <label><input type="radio" name="choise">Męzczyzna</label>
+        <label><input type="radio" name="choise">Kobieta</label><br>
+        <label><input type="checkbox" name="agreement" id="agreement" required>Wyrazam zgodę na przetwarzanie moich
+            danych
+            osobowych</label><br>
+        <label for="message">Wiadomość do sprzedającego:</label><br>
+        <textarea name="message" id="message"></textarea><br>
+        <input type="submit" value="Wyślij">
+    </form>
+</body>
+
+</html>

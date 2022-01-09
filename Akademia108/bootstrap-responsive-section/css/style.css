@@ -1,0 +1,9 @@
+i.fab {
+    color: rgb(233, 151, 0);
+}
+
+.item-wrapper { 
+    width: 100px;
+    height: 100px;
+    background-color: rgb(241, 241, 241);
+}

@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+}
+
+.wrapper {
+    @include flexbox;
+    @include flex-align(center, center);
+    height: 98vh;
+    background-color: $dark-blue-bg;
+}
+
+p {
+    color: $soft-blue;
+    width: 100%;
+}
+
+.attribution {
+    text-align: center;
+    background-color: $cyan;
+}
