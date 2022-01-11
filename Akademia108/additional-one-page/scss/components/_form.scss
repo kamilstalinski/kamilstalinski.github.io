@@ -1,0 +1,56 @@
+form {
+    margin-top: 30px;
+    padding: 0 50px;
+
+    input, 
+    textarea {
+        background-color: #273a71;
+        outline: none;
+        border: 0;
+        color: #fff;
+
+        &::-webkit-input-placeholder {
+            color: #ddd;
+        }
+    
+        &::-moz-placeholder {
+            color: #ddd;
+        }
+    
+        &:-ms-input-placeholder {
+            color: #ddd;
+        }
+    
+        &:-moz-placeholder {
+            color: #ddd;
+        }
+    }
+
+    input {
+        width: 48%;
+        padding: 5px;
+    }
+
+    textarea {
+        padding: 5px;
+        width: 100%;
+        height: 150px;
+        margin-top: 20px;
+    }
+
+    .form-btn {
+        margin: 40px auto 0 auto;
+    }
+}
+
+@media all and (max-width: $medium) {
+    form {
+        padding: 0 10px;
+        
+        input {
+            width: 100%;
+            margin-top: 10px;
+        }
+    }
+}
+

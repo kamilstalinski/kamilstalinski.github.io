@@ -1,4 +1,4 @@
-header {
+.home {
     background-color: #87509c;
 
     .navbar {
@@ -33,18 +33,6 @@ header {
                 }
             }
         }
-
-        .navbar-hamburger {
-            display: none;
-            cursor: pointer;
-
-            div {
-                width: 25px;
-                height: 3px;
-                background-color: #fff;
-                margin: 5px;
-            }
-        }
     }
 
     .hero {
@@ -60,18 +48,6 @@ header {
             font-weight: 400;
             letter-spacing: 1px;
             margin-bottom: 70px;
-        }
-
-        .hero-btn {
-            padding: 15px 80px;
-            background-color: #eb7d4b;
-            box-shadow: 0 3px 2px #bb643c;
-            font-size: 12px;
-
-            &:hover {
-                background-color: #bb643c;
-                transform: translateY(-5px);
-            }
         }
     }
 
@@ -128,14 +104,6 @@ header {
                &.active {
                    top: 0;
                }
-               
-           }
-
-           .navbar-hamburger {
-               display: block;
-               z-index: 999;
-
-               
            }
        }
 

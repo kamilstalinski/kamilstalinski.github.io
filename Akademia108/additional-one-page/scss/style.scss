@@ -1,9 +1,16 @@
 @import 'utils/variables';
 @import 'utils/mixins';
 
+@import 'base/normalize';
+@import 'base/global';
+
 @import 'layout/header';
 @import 'layout/team';
 @import 'layout/skills';
+@import 'layout/about';
+@import 'layout/contact';
+@import 'layout/footer';
 
-@import 'base/normalize';
-@import 'base/global';
+@import 'components/btn';
+@import 'components/form';
+

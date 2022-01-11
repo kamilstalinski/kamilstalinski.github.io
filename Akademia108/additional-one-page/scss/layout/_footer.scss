@@ -1,0 +1,35 @@
+.footer {
+    background-color: #2d4180;
+
+    .container {
+        ul {
+            padding: 20px 0;
+            list-style: none;
+
+            li {
+                text-align: center;
+
+                a {
+                    font-size: 14px;
+                    text-transform: none;
+
+                    &:hover {
+                        color: #55c2e9;
+                    }
+                }
+            }
+        }
+        
+        @media all and (max-width: $small) {
+
+            ul {
+                justify-content: space-around;
+            
+                li {
+                    flex-basis: 30%;
+                }
+            }
+        }
+
+    }
+}

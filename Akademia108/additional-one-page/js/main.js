@@ -1,3 +1,9 @@
-document.querySelector('.navbar-hamburger').addEventListener('click', function () {
-    document.querySelector('.navbar-items').classList.toggle('active')
-});
+btnHamburger = document.querySelector('.hamburger-btn');
+navbarMenu = document.querySelector('.navbar-items');
+
+const callToAction = () => {
+    navbarMenu.classList.toggle('active');
+    btnHamburger.classList.toggle('hamburger-active');
+};
+
+btnHamburger.addEventListener('click', callToAction);
