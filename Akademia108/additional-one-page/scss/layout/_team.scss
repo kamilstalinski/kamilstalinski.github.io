@@ -47,12 +47,19 @@
                 text-align: center;
 
                 .circle {
-                    width: 170px;
-                    height: 170px;
-                    background-size: cover;
-                    background-position: center;
                     border-radius: 50%;
+                    height: 170px;
+                    width: 170px;
+                    overflow: hidden;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                   
                     margin: 0 auto;
+
+                    img {
+                        width: 100%;
+                    }
                 }
 
                 .infobox-icons {
@@ -82,30 +89,30 @@
                 }
             }
 
-            .infobox-team-member:nth-child(1) {
-                .circle {
-                    background-image: url('/img/team1.jpg');
-                }
-            }
+            // .infobox-team-member:nth-child(1) {
+            //     .circle {
+            //         background-image: url('img/team1.jpg');
+            //     }
+            // }
 
-            .infobox-team-member:nth-child(2) {
-                .circle {
-                    background-image: url('/img/team2.jpg');
-                }
-            }
+            // .infobox-team-member:nth-child(2) {
+            //     .circle {
+            //         background-image: url('/img/team2.jpg');
+            //     }
+            // }
 
-            .infobox-team-member:nth-child(3) {
-                .circle {
-                    background-image: url('/img/team3.jpg');
-                }
-            }
+            // .infobox-team-member:nth-child(3) {
+            //     .circle {
+            //         background-image: url('/img/team3.jpg');
+            //     }
+            // }
 
-            .infobox-team-member:nth-child(4) {
-                .circle {
-                    background-image: url('/img/team4.jpg');
-                    background-position-y: 3px;
-                }
-            }
+            // .infobox-team-member:nth-child(4) {
+            //     .circle {
+            //         background-image: url('/img/team4.jpg');
+            //         background-position-y: 3px;
+            //     }
+            // }
         }
     }
 }
